@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pendaftaran OSIS</title>
+</head>
+<body style="display: flex; justify-content: center; margin-top: 30px;">
+    <div style="border: 2px solid #ccc; width: 500px; padding-bottom: 20px;">
+        <div style="background-color: #0000e6; color: white; text-align: center; font-weight: bold; padding: 12px 0; margin-bottom: 20px;">FORM PENDAFTARAN OSIS</div>
+        <form>
+            <table style="width: 100%; padding: 0 20px; border-collapse: separate; border-spacing: 0 15px;">
+                <tr>
+                    <td style="width: 45%; vertical-align: top;">Nama Lengkap</td>
+                    <td><input type="text" placeholder="Nama Lengkap" style="padding: 2px 4px; width: 180px;"></td>
+                </tr>
+                <tr>
+                    <td style="width: 45%; vertical-align: top;">Nama Panggilan</td>
+                    <td><input type="text" placeholder="Nama Panggilan" style="padding: 2px 4px; width: 180px;"></td>
+                </tr>
+                <tr>
+                    <td style="width: 45%; vertical-align: top;">Tempat Tanggal Lahir</td>
+                    <td><input type="date" placeholder="dd/mm/yyyy"></td>
+                </tr>
+                <tr>
+                    <td style="width: 45%; vertical-align: top;">Jenis Kelamin</td>
+                    <td>
+                        Laki-Laki <input type="radio" name="kelamin"> 
+                        Perempuan <input type="radio" name="kelamin">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 45%; vertical-align: top;">Nomor Telepon</td>
+                    <td><input type="text" placeholder="Telepon" style="padding: 2px 4px; width: 180px;"></td>
+                </tr>
+                <tr>
+                    <td style="width: 45%; vertical-align: top;">Jurusan</td>
+                    <td>
+                        IPA <input type="radio" name="jurusan"> 
+                        IPS <input type="radio" name="jurusan"> 
+                        BAHASA <input type="radio" name="jurusan">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 45%; vertical-align: top;">Agama</td>
+                    <td>
+                        <select>
+                            <option>Islam</option>
+                            <option>Kristen</option>
+                            <option>Katolik</option>
+                            <option>Hindu</option>
+                            <option>Buddha</option>
+                            <option>Konghucu</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 45%; vertical-align: top;">Hobi</td>
+                    <td>
+                        Membaca Buku <input type="checkbox"> 
+                        Menulis <input type="checkbox"> 
+                        dll <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 45%; vertical-align: top;">Alasan/Motivasi untuk mendaftar</td>
+                    <td><textarea style="width: 90%; height: 100px; resize: vertical;"></textarea></td>
+                </tr>
+                <tr>
+                    <td style="width: 45%; vertical-align: top;">Foto 3X4</td>
+                    <td><input type="file"></td>
+                </tr>
+            </table>
+            <div style="text-align: center; margin-top: 15px;">
+                <button type="submit" style="padding: 3px 15px; margin: 0 5px;">Daftar</button>
+                <button type="reset" style="padding: 3px 15px; margin: 0 5px;">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
